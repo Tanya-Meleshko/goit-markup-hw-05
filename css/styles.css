@@ -116,6 +116,8 @@ color: var(--color-light);
 
 .logo-header {
     margin-right: 90px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .navigation-list-item:not(:last-child),
@@ -126,9 +128,7 @@ color: var(--color-light);
 .page-header {
     background: var(--color-light);
     border-bottom: 1px solid #ECECEC;
-    padding-top: 32px;
-    padding-bottom: 32px;   
-}
+    }
 
 .navigation-link-item {
     position: relative;
@@ -156,6 +156,8 @@ color: var(--color-light);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-text);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
